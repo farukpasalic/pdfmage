@@ -1,6 +1,6 @@
 import json
-from dataclasses import dataclass
 from typing import List
+from mage.config import Config
 import pdfplumber
 import time
 from pdf2image import convert_from_path
@@ -8,20 +8,9 @@ from PIL import ImageDraw
 import numpy as np
 from sklearn.cluster import DBSCAN
 from mage.functions import min_bbox_distance, custom_metric
+import os
 
-@dataclass
-class Config:
-    extend_word_coordinates: tuple = (1.0, 1.0)
-    cluster_words_eps: int = 12
-    cluster_columns_eps: int = 200
-    debug_images: bool = True
-    debug_words: bool = False
-    debug_clusters: bool = True
-    debug_columns: bool = False
-    debug: bool = True
-    word_color: str = 'orange'
-    cluster_color: str = 'green'
-    column_color: str = 'blue'
+
 
 
 
@@ -177,7 +166,9 @@ class PDFMage:
                                outline=self.config.column_color, width=1)
 
         # Save the image
-        image.save(f'../output/page_{page_number}.png')
+        if os.path.exists(self.config.output) is False:
+            os.makedirs(self.config.output)
+        image.save(f'{self.config.output}/page_{page_number}.png')
 
     def __cluster_words(self, words: List[WordInfo], eps: int) -> List[WordsCluster]:
         coords = [(word.x0, word.y0, word.x1, word.y1) for word in words]
@@ -274,16 +265,7 @@ class PDFMage:
 
 
 
-file_name = "../docgen/doc.pdf"
-mage = PDFMage(file_name, Config())
 
-data = mage.extract_text(pages=[1, 2, 3])
-print(f"Parsed: {len(data)} pages")
-
-for p in data.keys():
-    for col in data[p]:
-        print(col.collect_text())
-        print()
 
 
 
