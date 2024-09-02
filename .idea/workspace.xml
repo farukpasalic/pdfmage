@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cee85e4-42a1-4b38-a728-b6edc091ab6a" name="Changes" comment="Init">
-      <change beforePath="$PROJECT_DIR$/annot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotated_example.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotated_zakon.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbox.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drylab.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/essay.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five-wishes-sample.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knjiga.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_2_image_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/somatosensory.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uncpn-form-new-patient-medical-history.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zakon.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +277,7 @@
       <workItem from="1723733431238" duration="2300000" />
       <workItem from="1723838402276" duration="6977000" />
       <workItem from="1724874945794" duration="13000" />
-      <workItem from="1725273579792" duration="1508000" />
+      <workItem from="1725273579792" duration="1856000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1725273883648</created>
@@ -326,7 +307,28 @@
       <option name="project" value="LOCAL" />
       <updated>1725274953480</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Init">
+      <created>1725275136622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725275136622</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Init">
+      <created>1725275144433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725275144433</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Init">
+      <created>1725275198357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725275198357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
