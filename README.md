@@ -1,2 +1,0 @@
-# pdfmage
-PDF parsing library
